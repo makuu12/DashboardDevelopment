@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        * {
+            padding: 0px 1rem 0px 1rem;
+            margin: 0px;
+
+
+        }
+        [class*="col"] {
+            padding: 1rem;
+            background-color: blue;
+            border: 2px solid black;
+            color: #fff;
+            text-align: center;
+        }
+
+        [class*="con"] {  
+            padding: 1rem;  
+            background-color: yellow;
+            border: 2px solid black;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm">1</div>
+            <div class="col-sm">2</div>
+            <div class="col-sm">3</div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">Main Container</div>
+            <div class="col-md-4">Sidebar</div>
+        </div>
+    </div>
+    <center>
+        <br><h3>Gutter</h3><br>
+    </center>
+    <div class="container px-4">
+        <div class="row gx-1">
+            <div class="col">
+                <div class="p-3 border">
+                    Custom Column
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3 border">
+                    Custom Column
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</body>
+</html>
