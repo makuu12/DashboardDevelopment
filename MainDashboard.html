@@ -5,13 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css" integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="main">
-        <nav class="navbar">Navbar</nav>
-        <div id="sidebar">Sidebar</div>
-        <main class="main-content">Main</main>
+    <div class="main"> <!--Start of the page -->
+        <nav> <!--Header part -->
+            <div class="brand">
+                <span>DOWNTOWN ALLEY</span>
+            </div>
+            
+        </nav>
+        <div id="sidebar"> <!-- Left side of the page -->
+            <div class="profile">
+                <div class="profile-photo">
+                    <!--Insert code of Image depends on their role -->
+                </div>
+                <div class="profile-username">
+                    <center><h4>Manager</h4></center> <!--Can be change according to its username -->
+                </div>
+            </div>
+            <div id="navlist">
+                <ul>
+                    <li id="#"><a class="menu" href="#"><span id="list-1">Sales Dashboard</span><i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li id="#"><a class="menu" href="#"><span id="list-2">Profit</span><i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li id="#"><a class="menu" href="#"><span id="list-3">Losses</span><i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li id="#"><a class="menu" href="#"><span id="list-4">Audit Trail</span><i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li id="#"><a class="menu" href="#"><span id="list-5">Accounts</span><i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li id="#"><a class="menu" href="#"><span id="list-6">Inventory</span><i class="fa-solid fa-chevron-right"></i></a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <main class="main-content"> <!--Renderbody of the page -->
+            <div class="page"> <!-- The whle page -->
+                <h3>Revenue Dashboard</h3>
+                <div id="dashboards">
+                    <div class="row-1">
+                        <div class="content-1 dashboard1">
+                            <div class="images"></div>
+                            <div class="info1">
+                                <div class="span"><span>Revenue</span></div>
+                                <div class="detail"><p>₱ 696,000</p></div>
+                            </div>
+                        </div>
+                        <div class="content-1 dashboard1">
+                            <div class="images"></div>
+                            <div class="info1">
+                                <div class="span"><span>Profit</span></div>
+                                <div class="detail"><p>₱ 696,000</p></div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="row-2">
+                        <div class="content-2 dashboard1">
+                            <div class="images"></div>
+                            <div class="info1">
+                                <div class="span"><span>Expenses</span></div>
+                                <div class="detail"><p>₱ 696,000</p></div>
+                            </div>
+                        </div>
+                        <div class="content-2 dashboard1">
+                            <div class="images"></div>
+                            <div class="info1">
+                                <div class="span"><span>Losses</span></div>
+                                <div class="detail"><p>₱ 696,000</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </main>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
