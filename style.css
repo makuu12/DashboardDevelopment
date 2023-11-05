@@ -99,8 +99,8 @@ li{
     height: 40px;
     border: 1px rgba(255, 237, 79, 1) solid;
 }
-
-#navlist a {
+/*to delete*/
+#navlist a { 
     text-decoration: none;
     display: flex;
     justify-content: flex-start;
@@ -112,13 +112,35 @@ li{
 
 }
 
-#navlist span {
+#navlist .item {
+    text-decoration: none;
     display: flex;
+    justify-content: flex;
+    background-color: rgba(87, 27, 39, 1);
+    position: relative;
+    height: 100%;
+    text-align: center;
+    height: 40px;
+    border: 1px rgba(255, 237, 79, 1) solid;
+
+}
+
+
+#navlist .item a {
+    text-decoration: none;
+    color: rgba(244, 243, 243, 1);
+    flex: 1;
+}
+
+#navlist span {
+    background-color: transparent;
     justify-content: space-between;
     width: 150px;
-    margin-left: 10px;
+    margin-left: -8px;
     font-family: "Poppins", sans-serif;
+    
 }
+
 
 #navlist i {
     color: rgba(255, 237, 79, 1);
@@ -129,10 +151,7 @@ li{
 
 }
 
-.menu {
-    text-decoration: none;
-    color: rgba(244, 243, 243, 1);
-}
+
 
 .main-content {
     display: flex;
@@ -140,6 +159,45 @@ li{
     justify-content: center;
     align-items: center;
     height: 100%; 
+}
+
+.item a .dropdown {
+    position: relative;
+    right: 0;
+}
+
+
+
+#navlist .subitem {
+    display: none;
+    padding-left: 20px; /* Adjust the indentation as needed */
+}
+
+#navlist .item:hover .subitem {
+    
+    display: block;
+}
+
+#navlist .item:hover + .subitem {
+    display: block;
+    
+}
+
+
+#navlist .subitem a {
+    display: block;
+    /* Style your subitem links here */
+    background-color: rgba(87, 27, 39, 1);
+    border: 1px rgba(255, 237, 79, 1) solid;
+    color: white;
+    width: 170px;
+    z-index: 99;
+    height: 30px;
+}
+
+#navlist .subitem span {
+    background-color: transparent;
+    margin-left: -60px;
 }
 
 h3 {
@@ -205,8 +263,7 @@ h3 {
 .images {
     width: 125px;
     height: 125px;
-    background-image: url(images/sales.png);
-    background-color: yellow;
+    background-color: transparent;
 }
 
 .info1 {
