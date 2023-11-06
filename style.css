@@ -200,7 +200,7 @@ li{
     margin-left: -60px;
 }
 
-h3 {
+.title {
     padding-left: 50px;
     align-self: flex-start;
 }
@@ -284,6 +284,13 @@ h3 {
     justify-content: center;
 }
 
+.detail p {
+    user-select: none;
+    -webkit-user-drag: none; 
+    -webkit-touch-callout: none;
+    pointer-events: none;
+}
+
 .span {
     height: 45px;
     width: 100%;
@@ -294,6 +301,16 @@ h3 {
 .span span {
     color: rgba(244, 243, 243, 1);
     font-size: 24px;
+}
+
+.img-display {
+    user-select: none; /* Disable text selection */
+    -webkit-user-drag: none; /* Disable dragging for webkit-based browsers */
+    -webkit-touch-callout: none; /* Disable long-touch actions on the image */
+    pointer-events: none; /* Disable mouse events on the image */
+    position: relative; 
+    height: 125px; 
+    width: 125px;
 }
 
 /*
