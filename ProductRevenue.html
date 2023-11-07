@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Revenue</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="PRStyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.10.0/js/bootstrap-datepicker.min.js"
+        integrity="sha512-LsnSViqQyaXpD4mBBdRYeP6sRwJiJveh2ZIbW41EBrNmKxgr/LFZIiWT6yr+nycvhvauz8c2nYMhrP80YhG7Cw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css"
+        integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css"
+        integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+
+<body>
+    <div class="main">
+        <!--Main-->
+        <nav>
+            <div class="brand">
+                <span>DOWNTOWN ALLEY</span>
+            </div>
+        </nav>
+        <div id="sidebar">
+            <!-- Left side of the page -->
+            <div class="profile">
+                <div class="profile-photo">
+                    <!--Insert code of Image depends on their role -->
+                </div>
+                <div class="profile-username">
+                    <center>
+                        <h4>Manager</h4>
+                    </center>
+                    <!--Can be change according to its username -->
+                </div>
+            </div>
+            <div id="navlist">
+                <div class="item item-nav"><a href=""><span> Sales Dashboard</span><i
+                            class="fa-solid fa-chevron-right dropdown"></i></a>
+                    <div class="subitem">
+                        <a href="https://www.facebook.com" target="_blank"><span>Related 1</span></a>
+                        <a href="#"><span>Related 2</span></a>
+                        <a href="#"><span>Related 3</span></a>
+                    </div>
+                </div>
+                <div class="item"><a href=""><span>Profit</span><i class="fa-solid fa-chevron-right"></i></a></div>
+                <div class="item"><a href=""><span>Losses</span><i class="fa-solid fa-chevron-right"></i></a></div>
+                <div class="item"><a href=""><span>Audit Trail</span><i class="fa-solid fa-chevron-right"></i></a></div>
+                <div class="item"><a href=""><span>Accounts</span><i class="fa-solid fa-chevron-right"></i></a></div>
+                <div class="item"><a href=""><span>Inventory</span><i class="fa-solid fa-chevron-right"></i></a></div>
+
+            </div>
+
+        </div> <!-- Left side of the page -->
+        <div class="main-content">
+            <!-- Main content of the page -->
+
+
+            <div class="page">
+                <h3 class="title"><b>Sales Revenue</b></h3>
+                <div id="container-1">
+                    <!--Start of Container 1-->
+                    <div class="col-card">
+                        <center>
+                            <h6>Total Sales</h6>
+                            <h3>4.16M</h3>
+                        </center>
+                    </div>
+                    <div class="col-card">
+                        <center>
+                            <h6>Total Sale Per Day</h6>
+                            <h3>4.16M</h3>
+                        </center>
+                    </div>
+                    <div class="col-card">
+                        <center>
+                            <h6>Ave Order Per Day</h6>
+                            <h3>4.16M</h3>
+                        </center>
+                    </div>
+                    <div class="col-card">
+                        <center>
+                            <h6>Total Order</h6>
+                            <h3>4.16M</h3>
+                        </center>
+                    </div>
+                </div>
+                <!--End of Container 1-->
+                <div class="second-container">
+                    <div id="form-container">
+                        <!--Start of Container 3-->
+                        <div id="container-2">
+                            <!--Start of Container 2-->
+                            <div class="form-1">
+                                <!--Start of form 1-->
+                                <form action="form-action">
+                                    <select name="periodicity" id="periodicity" class="form-actions">
+                                        <option value="Daily">Daily</option>
+                                        <option value="Monthly">Monthly</option>
+                                        <option value="Anually">Anually</option>
+                                    </select>
+                                </form>
+
+                                <form action="form-action">
+                                    <select name="year" id="year" class="form-actions">
+                                        <option value="2023">2023</option>
+                                        <option value="2022">2021</option>
+                                        <option value="2020">2020</option>
+                                    </select>
+                                </form>
+
+                                <form action="form-action">
+                                    <select name="month" id="month" class="form-actions">
+                                        <option value="November">November</option>
+                                        <option value="October">October</option>
+                                        <option value="September">September</option>
+                                        <option value="August">August</option>
+                                        <option value="July">July</option>
+                                        <option value="June">June</option>
+                                        <option value="May">May</option>
+                                        <option value="April">April</option>
+                                        <option value="March">March</option>
+                                        <option value="February">February</option>
+                                        <option value="January">January</option>
+                                    </select>
+                                </form>
+                            </div>
+                            <!--End of form 1-->
+
+                            <div class="form-2">
+                                <label for="start-date">from</label>
+                                <input type="date" name="" id="" class="form-actions">
+                                <label for="end-date">to</label>
+                                <input type="date" name="" id="" class="form-actions">
+                            </div>
+                        </div>
+                        <!--End of Container 2-->
+
+                    </div>
+                    <div id="container-3">
+                        <!--End of Container 3-->
+                        <div><button type="button" id="print-data" class="button-form">Print Data</button></div>
+                        <div><button type="button" id="reset-data" class="button-form">Reset</button></div>
+                    </div>
+                </div>
+                <div id="container-4">
+                    <div class="row1">
+
+                        <div id="line_top_x"> <!--BUNCH OF WITHOUT API-->
+                            <div style="position: relative; width: 700px; height: 300px;">
+                                <div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;">
+                                    <svg width="700" height="300">
+                                        <defs>
+                                            <filter x="-100%" y="-100%" width="300%" height="300%" id="rablfilter4">
+                                                <feGaussianBlur in="SourceAlpha" stdDeviation="2"></feGaussianBlur>
+                                                <feOffset dx="0" dy="0"></feOffset>
+                                                <feComponentTransfer>
+                                                    <feFuncA type="linear" slope="0"></feFuncA>
+                                                </feComponentTransfer>
+                                                <feMerge>
+                                                    <feMergeNode></feMergeNode>
+                                                    <feMergeNode in="SourceGraphic"></feMergeNode>
+                                                </feMerge>
+                                            </filter>
+                                            <filter x="-100%" y="-100%" width="300%" height="300%" id="rablfilter3">
+                                                <feGaussianBlur in="SourceAlpha" stdDeviation="2"></feGaussianBlur>
+                                                <feOffset dx="0" dy="0"></feOffset>
+                                                <feComponentTransfer>
+                                                    <feFuncA type="linear" slope="0.4"></feFuncA>
+                                                </feComponentTransfer>
+                                                <feMerge>
+                                                    <feMergeNode></feMergeNode>
+                                                    <feMergeNode in="SourceGraphic"></feMergeNode>
+                                                </feMerge>
+                                            </filter>
+                                            <filter x="-100%" y="-100%" width="300%" height="300%" id="rablfilter2">
+                                                <feGaussianBlur in="SourceAlpha" stdDeviation="2"></feGaussianBlur>
+                                                <feOffset dx="0" dy="1"></feOffset>
+                                                <feComponentTransfer>
+                                                    <feFuncA type="linear" slope="0.4"></feFuncA>
+                                                </feComponentTransfer>
+                                                <feMerge>
+                                                    <feMergeNode></feMergeNode>
+                                                    <feMergeNode in="SourceGraphic"></feMergeNode>
+                                                </feMerge>
+                                            </filter>
+                                            <filter x="-100%" y="-100%" width="300%" height="300%" id="rablfilter1">
+                                                <feGaussianBlur in="SourceAlpha" stdDeviation="0"></feGaussianBlur>
+                                                <feOffset dx="0" dy="1"></feOffset>
+                                                <feComponentTransfer>
+                                                    <feFuncA type="linear" slope="0.4"></feFuncA>
+                                                </feComponentTransfer>
+                                                <feMerge>
+                                                    <feMergeNode></feMergeNode>
+                                                    <feMergeNode in="SourceGraphic"></feMergeNode>
+                                                </feMerge>
+                                            </filter>
+                                            <clipPath id="rablfilter0">
+                                                <rect x="27.5" y="21.5" width="547" height="270"></rect>
+                                            </clipPath>
+                                        </defs>
+                                        <g>
+                                            <rect x="0" y="0" width="700" height="300" fill="#ffffff" fill-opacity="0"
+                                                stroke="#ffffff" stroke-opacity="0" stroke-width="0"></rect>
+                                            <rect x="614.7447891235352" y="21.5" width="12" height="12" rx="2" ry="2"
+                                                fill="#4285f4"></rect>
+                                            <text x="634.7447891235352" y="36.833333015441895"
+                                                style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto;"
+                                                fill="#757575" dx="0px">Product1</text>
+                                            <rect x="614.7447891235352" y="56.83333396911621" width="12" height="12"
+                                                rx="2" ry="2" fill="#db4437"></rect>
+                                            <text x="634.7447891235352" y="72.16666793823242"
+                                                style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto;"
+                                                fill="#757575" dx="0px">Product2</text>
+                                            <rect x="614.7447891235352" y="92.16666793823242" width="12" height="12"
+                                                rx="2" ry="2" fill="#f4b400"></rect>
+                                            <text x="634.7447891235352" y="107.5"
+                                                style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto;"
+                                                fill="#757575" dx="0px">Product3</text>
+                                            <rect x="614.7447891235352" y="127.50000190734863" width="12" height="12"
+                                                rx="2" ry="2" fill="#0f9d58"></rect>
+                                            <text x="634.7447891235352" y="142.83333206176758"
+                                                style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto;"
+                                                fill="#757575" dx="0px">Product4</text>
+                                            <rect x="614.7447891235352" y="162.83333587646484" width="12" height="12"
+                                                rx="2" ry="2" fill="#ab47bc"></rect>
+                                            <text x="634.7447891235352" y="178.1666717529297"
+                                                style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto;"
+                                                fill="#757575" dx="0px">Product5</text>
+                                            <rect x="27.5" y="21.5" width="547" height="270" fill="#ffffff"
+                                                fill-opacity="0" stroke="#ffffff" stroke-opacity="0" stroke-width="1">
+                                            </rect>
+                                        </g>
+                                        <g>
+                                            <line x1="27.5" x2="574.5" y1="291.5" y2="291.5" stroke="#9E9E9E"
+                                                stroke-width="1"></line>
+                                            <line x1="27.5" x2="574.5" y1="246.5" y2="246.5" stroke="#E0E0E0"
+                                                stroke-width="1"></line>
+                                            <line x1="27.5" x2="574.5" y1="201.5" y2="201.5" stroke="#E0E0E0"
+                                                stroke-width="1"></line>
+                                            <line x1="27.5" x2="574.5" y1="156.5" y2="156.5" stroke="#E0E0E0"
+                                                stroke-width="1"></line>
+                                            <line x1="27.5" x2="574.5" y1="111.5" y2="111.5" stroke="#E0E0E0"
+                                                stroke-width="1"></line>
+                                            <line x1="27.5" x2="574.5" y1="66.5" y2="66.5" stroke="#E0E0E0"
+                                                stroke-width="1"></line>
+                                            <line x1="27.5" x2="574.5" y1="21.5" y2="21.5" stroke="#E0E0E0"
+                                                stroke-width="1"></line>
+                                        </g>
+                                        <g>
+                                            <path
+                                                d="M 56.93333333333334 206.45000000000002 L 74.36666666666667 221.975 L 91.80000000000001 234.35 L 109.23333333333333 265.17499999999995 L 126.66666666666666 264.725 L 144.10000000000002 271.7 L 161.53333333333333 274.40000000000003 L 178.96666666666667 263.82500000000005 L 196.4 253.475 L 213.83333333333331 262.7 L 231.26666666666665 279.575 L 248.70000000000002 276.65 L 266.1333333333333 280.70000000000005 L 283.56666666666666 282.05 L 301 262.7 L 318.43333333333334 279.575 L 335.8666666666667 276.65 L 353.3 280.70000000000005 L 370.7333333333333 282.05 L 388.16666666666663 282.05 L 405.59999999999997 206.45000000000002 L 423.0333333333333 221.975 L 440.4666666666667 234.35 L 457.90000000000003 265.17499999999995 L 475.33333333333337 264.725 L 492.7666666666667 271.7 L 510.2 274.40000000000003 L 527.6333333333333 263.82500000000005 L 545.0666666666666 253.475 L 562.5 118.475"
+                                                fill="none" stroke="#4285f4" stroke-width="2"
+                                                clip-path="url(#rablfilter0)"></path>
+                                            <circle cx="56.93333333333334" cy="206.45000000000002" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="74.36666666666667" cy="221.975" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="91.80000000000001" cy="234.35" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="109.23333333333333" cy="265.17499999999995" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="126.66666666666666" cy="264.725" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="144.10000000000002" cy="271.7" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="161.53333333333333" cy="274.40000000000003" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="178.96666666666667" cy="263.82500000000005" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="196.4" cy="253.475" r="4" fill="#4285f4" fill-opacity="0"
+                                                clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="213.83333333333331" cy="262.7" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="231.26666666666665" cy="279.575" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="248.70000000000002" cy="276.65" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="266.1333333333333" cy="280.70000000000005" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="283.56666666666666" cy="282.05" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="301" cy="262.7" r="4" fill="#4285f4" fill-opacity="0"
+                                                clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="318.43333333333334" cy="279.575" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="335.8666666666667" cy="276.65" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="353.3" cy="280.70000000000005" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="370.7333333333333" cy="282.05" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="388.16666666666663" cy="282.05" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="405.59999999999997" cy="206.45000000000002" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="423.0333333333333" cy="221.975" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="440.4666666666667" cy="234.35" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="457.90000000000003" cy="265.17499999999995" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="475.33333333333337" cy="264.725" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="492.7666666666667" cy="271.7" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="510.2" cy="274.40000000000003" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="527.6333333333333" cy="263.82500000000005" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="545.0666666666666" cy="253.475" r="4" fill="#4285f4"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="562.5" cy="118.475" r="4" fill="#4285f4" fill-opacity="0"
+                                                clip-path="url(#rablfilter0)"></circle>
+                                            <path
+                                                d="M 56.93333333333334 109.70000000000002 L 74.36666666666667 135.125 L 91.80000000000001 163.25 L 109.23333333333333 249.20000000000002 L 126.66666666666666 251.9 L 144.10000000000002 260.9 L 161.53333333333333 263.82500000000005 L 178.96666666666667 225.79999999999998 L 196.4 194.975 L 213.83333333333331 221.975 L 231.26666666666665 273.72499999999997 L 248.70000000000002 272.6 L 266.1333333333333 277.325 L 283.56666666666666 277.55 L 301 221.975 L 318.43333333333334 273.72499999999997 L 335.8666666666667 272.6 L 353.3 277.325 L 370.7333333333333 277.55 L 388.16666666666663 277.55 L 405.59999999999997 109.70000000000002 L 423.0333333333333 135.125 L 440.4666666666667 163.25 L 457.90000000000003 249.20000000000002 L 475.33333333333337 251.9 L 492.7666666666667 260.9 L 510.2 263.82500000000005 L 527.6333333333333 225.79999999999998 L 545.0666666666666 194.975 L 562.5 239.97499999999997"
+                                                fill="none" stroke="#db4437" stroke-width="2"
+                                                clip-path="url(#rablfilter0)"></path>
+                                            <circle cx="56.93333333333334" cy="109.70000000000002" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="74.36666666666667" cy="135.125" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="91.80000000000001" cy="163.25" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="109.23333333333333" cy="249.20000000000002" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="126.66666666666666" cy="251.9" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="144.10000000000002" cy="260.9" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="161.53333333333333" cy="263.82500000000005" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="178.96666666666667" cy="225.79999999999998" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="196.4" cy="194.975" r="4" fill="#db4437" fill-opacity="0"
+                                                clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="213.83333333333331" cy="221.975" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="231.26666666666665" cy="273.72499999999997" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="248.70000000000002" cy="272.6" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="266.1333333333333" cy="277.325" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="283.56666666666666" cy="277.55" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="301" cy="221.975" r="4" fill="#db4437" fill-opacity="0"
+                                                clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="318.43333333333334" cy="273.72499999999997" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="335.8666666666667" cy="272.6" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="353.3" cy="277.325" r="4" fill="#db4437" fill-opacity="0"
+                                                clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="370.7333333333333" cy="277.55" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="388.16666666666663" cy="277.55" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="405.59999999999997" cy="109.70000000000002" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="423.0333333333333" cy="135.125" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="440.4666666666667" cy="163.25" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="457.90000000000003" cy="249.20000000000002" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="475.33333333333337" cy="251.9" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="492.7666666666667" cy="260.9" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="510.2" cy="263.82500000000005" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="527.6333333333333" cy="225.79999999999998" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="545.0666666666666" cy="194.975" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="562.5" cy="239.97499999999997" r="4" fill="#db4437"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <path
+                                                d="M 56.93333333333334 197.45000000000002 L 74.36666666666667 218.6 L 91.80000000000001 233.67499999999998 L 109.23333333333333 267.875 L 126.66666666666666 268.1 L 144.10000000000002 274.17499999999995 L 161.53333333333333 269.9 L 178.96666666666667 267.65 L 196.4 258.20000000000005 L 213.83333333333331 265.40000000000003 L 231.26666666666665 280.925 L 248.70000000000002 279.8 L 266.1333333333333 283.40000000000003 L 283.56666666666666 21.5 L 301 265.40000000000003 L 318.43333333333334 280.925 L 335.8666666666667 279.8 L 353.3 283.40000000000003 L 370.7333333333333 21.5 L 388.16666666666663 291.5 L 405.59999999999997 197.45000000000002 L 423.0333333333333 218.6 L 440.4666666666667 233.67499999999998 L 457.90000000000003 267.875 L 475.33333333333337 268.1 L 492.7666666666667 274.17499999999995 L 510.2 269.9 L 527.6333333333333 267.65 L 545.0666666666666 258.20000000000005 L 562.5 258.20000000000005"
+                                                fill="none" stroke="#f4b400" stroke-width="2"
+                                                clip-path="url(#rablfilter0)"></path>
+                                            <circle cx="56.93333333333334" cy="197.45000000000002" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="74.36666666666667" cy="218.6" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="91.80000000000001" cy="233.67499999999998" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="109.23333333333333" cy="267.875" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="126.66666666666666" cy="268.1" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="144.10000000000002" cy="274.17499999999995" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="161.53333333333333" cy="269.9" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="178.96666666666667" cy="267.65" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="196.4" cy="258.20000000000005" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="213.83333333333331" cy="265.40000000000003" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="231.26666666666665" cy="280.925" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="248.70000000000002" cy="279.8" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="266.1333333333333" cy="283.40000000000003" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="283.56666666666666" cy="21.5" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="301" cy="265.40000000000003" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="318.43333333333334" cy="280.925" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="335.8666666666667" cy="279.8" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="353.3" cy="283.40000000000003" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="370.7333333333333" cy="21.5" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="388.16666666666663" cy="291.5" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="405.59999999999997" cy="197.45000000000002" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="423.0333333333333" cy="218.6" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="440.4666666666667" cy="233.67499999999998" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="457.90000000000003" cy="267.875" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="475.33333333333337" cy="268.1" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="492.7666666666667" cy="274.17499999999995" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="510.2" cy="269.9" r="4" fill="#f4b400" fill-opacity="0"
+                                                clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="527.6333333333333" cy="267.65" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="545.0666666666666" cy="258.20000000000005" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="562.5" cy="258.20000000000005" r="4" fill="#f4b400"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <path
+                                                d="M 56.93333333333334 201.5 L 74.36666666666667 201.5 L 91.80000000000001 201.5 L 109.23333333333333 201.5 L 126.66666666666666 201.5 L 144.10000000000002 199.25 L 161.53333333333333 201.5 L 178.96666666666667 219.5 L 196.4 201.5 L 213.83333333333331 201.5 L 231.26666666666665 201.5 L 248.70000000000002 201.5 L 266.1333333333333 244.25 L 283.56666666666666 192.5 L 301 201.5 L 318.43333333333334 201.5 L 335.8666666666667 185.75 L 353.3 201.5 L 370.7333333333333 201.5 L 388.16666666666663 201.5 L 405.59999999999997 201.5 L 423.0333333333333 201.5 L 440.4666666666667 201.5 L 457.90000000000003 201.5 L 475.33333333333337 201.5 L 492.7666666666667 199.25 L 510.2 201.5 L 527.6333333333333 219.5 L 545.0666666666666 201.5 L 562.5 246.5"
+                                                fill="none" stroke="#0f9d58" stroke-width="2"
+                                                clip-path="url(#rablfilter0)"></path>
+                                            <circle cx="56.93333333333334" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="74.36666666666667" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="91.80000000000001" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="109.23333333333333" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="126.66666666666666" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="144.10000000000002" cy="199.25" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="161.53333333333333" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="178.96666666666667" cy="219.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="196.4" cy="201.5" r="4" fill="#0f9d58" fill-opacity="0"
+                                                clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="213.83333333333331" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="231.26666666666665" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="248.70000000000002" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="266.1333333333333" cy="244.25" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="283.56666666666666" cy="192.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="301" cy="201.5" r="4" fill="#0f9d58" fill-opacity="0"
+                                                clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="318.43333333333334" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="335.8666666666667" cy="185.75" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="353.3" cy="201.5" r="4" fill="#0f9d58" fill-opacity="0"
+                                                clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="370.7333333333333" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="388.16666666666663" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="405.59999999999997" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="423.0333333333333" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="440.4666666666667" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="457.90000000000003" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="475.33333333333337" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="492.7666666666667" cy="199.25" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="510.2" cy="201.5" r="4" fill="#0f9d58" fill-opacity="0"
+                                                clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="527.6333333333333" cy="219.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="545.0666666666666" cy="201.5" r="4" fill="#0f9d58"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="562.5" cy="246.5" r="4" fill="#0f9d58" fill-opacity="0"
+                                                clip-path="url(#rablfilter0)"></circle>
+                                            <path
+                                                d="M 56.93333333333334 242 L 74.36666666666667 235.25 L 91.80000000000001 228.5 L 109.23333333333333 242 L 126.66666666666666 242 L 144.10000000000002 262.25 L 161.53333333333333 111.5 L 178.96666666666667 179 L 196.4 134 L 213.83333333333331 66.5 L 231.26666666666665 152 L 248.70000000000002 174.5 L 266.1333333333333 242 L 283.56666666666666 242 L 301 242 L 318.43333333333334 242 L 335.8666666666667 242 L 353.3 242 L 370.7333333333333 242 L 388.16666666666663 242 L 405.59999999999997 242 L 423.0333333333333 235.25 L 440.4666666666667 228.5 L 457.90000000000003 242 L 475.33333333333337 242 L 492.7666666666667 262.25 L 510.2 111.5 L 527.6333333333333 179 L 545.0666666666666 134 L 562.5 134"
+                                                fill="none" stroke="#ab47bc" stroke-width="2"
+                                                clip-path="url(#rablfilter0)"></path>
+                                            <circle cx="56.93333333333334" cy="242" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="74.36666666666667" cy="235.25" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="91.80000000000001" cy="228.5" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="109.23333333333333" cy="242" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="126.66666666666666" cy="242" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="144.10000000000002" cy="262.25" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="161.53333333333333" cy="111.5" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="178.96666666666667" cy="179" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="196.4" cy="134" r="4" fill="#ab47bc" fill-opacity="0"
+                                                clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="213.83333333333331" cy="66.5" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="231.26666666666665" cy="152" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="248.70000000000002" cy="174.5" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="266.1333333333333" cy="242" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="283.56666666666666" cy="242" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="301" cy="242" r="4" fill="#ab47bc" fill-opacity="0"
+                                                clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="318.43333333333334" cy="242" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="335.8666666666667" cy="242" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="353.3" cy="242" r="4" fill="#ab47bc" fill-opacity="0"
+                                                clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="370.7333333333333" cy="242" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="388.16666666666663" cy="242" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="405.59999999999997" cy="242" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="423.0333333333333" cy="235.25" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="440.4666666666667" cy="228.5" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="457.90000000000003" cy="242" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="475.33333333333337" cy="242" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="492.7666666666667" cy="262.25" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="510.2" cy="111.5" r="4" fill="#ab47bc" fill-opacity="0"
+                                                clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="527.6333333333333" cy="179" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="545.0666666666666" cy="134" r="4" fill="#ab47bc"
+                                                fill-opacity="0" clip-path="url(#rablfilter0)"></circle>
+                                            <circle cx="562.5" cy="134" r="4" fill="#ab47bc" fill-opacity="0"
+                                                clip-path="url(#rablfilter0)"></circle>
+                                        </g>
+                                        <g></g>
+                                        <g>
+                                            <text x="39.5" y="12.166666030883789"
+                                                style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto; font-size: 12px;"
+                                                fill="#757575" dx="-3.3697917461395264px">0</text>
+                                            <text x="213.83333333333331" y="12.166666030883789"
+                                                style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto; font-size: 12px;"
+                                                fill="#757575" dx="-6.739583492279053px">10</text>
+                                            <text x="388.16666666666663" y="12.166666030883789"
+                                                style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto; font-size: 12px;"
+                                                fill="#757575" dx="-6.739583492279053px">20</text>
+                                            <text x="562.5" y="12.166666030883789"
+                                                style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto; font-size: 12px;"
+                                                fill="#757575" dx="-6.739583492279053px">30</text>
+                                            <text x="21.5" y="295.4999794960022"
+                                                style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto; font-size: 12px;"
+                                                fill="#757575" dx="-6.739583492279053px">0</text>
+                                            <text x="21.5" y="250.49999475479126"
+                                                style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto; font-size: 12px;"
+                                                fill="#757575" dx="-13.479166984558105px">20</text>
+                                            <text x="21.5" y="205.49999475479126"
+                                                style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto; font-size: 12px;"
+                                                fill="#757575" dx="-13.479166984558105px">40</text>
+                                            <text x="21.5" y="160.49999475479126"
+                                                style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto; font-size: 12px;"
+                                                fill="#757575" dx="-13.479166984558105px">60</text>
+                                            <text x="21.5" y="115.49999475479126"
+                                                style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto; font-size: 12px;"
+                                                fill="#757575" dx="-13.479166984558105px">80</text>
+                                            <text x="21.5" y="70.49999856948853"
+                                                style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto; font-size: 12px;"
+                                                fill="#757575" dx="-20.21875px">100</text>
+                                            <text x="21.5" y="25.499999523162842"
+                                                style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto; font-size: 12px;"
+                                                fill="#757575" dx="-20.21875px">120</text>
+                                        </g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--    
+                            ONE LINE SCRIPT WITH API
+                            ONE LINE SCRIPT WITH API
+                            <div id="line_top_x">
+                                <div id="chart-part"></div>
+                            </div>
+                        --> 
+                        
+                    </div>
+                    <div class="row2">
+                        <!--Start of row 2-->
+
+                        <table class="table-list">
+                            <thead>
+                                <tr>
+                                    <th colspan="3" class="table-header">
+                                        <center>Fast Moving Products</center>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>Color</th>
+                                    <th>Product</th>
+                                    <th>Sales</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td>Product1</td>
+                                    <td>Data 3</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Product2</td>
+                                    <td>Data 6</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Product3</td>
+                                    <td>Data 9</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Product4</td>
+                                    <td>Data 12</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Product5</td>
+                                    <td>Data 15</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!--End of row 2-->
+                </div>
+            </div>
+        </div> <!-- Main content of the page -->
+    </div>
+    <!--Main-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {
+            'packages': ['line']
+        });
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+
+            var data = new google.visualization.DataTable();
+            data.addColumn('number', ''); // Edit all col but please do not touch this shit
+            data.addColumn('number', 'Product1');
+            data.addColumn('number', 'Product2');
+            data.addColumn('number', 'Product3');
+            data.addColumn('number', 'Product4');
+            data.addColumn('number', 'Product5');
+
+            data.addRows([
+                [1, 37.8, 0, 41.8, 40, 22],
+                [2, 30.9, 80, 32.4, 40, 25],
+                [3, 25.4, 57, 25.7, 40, 28],
+                [4, 11.7, 80.8, 10.5, 40, 22],
+                [5, 11.9, 20.6, 10.4, 40, 22],
+                [6, 8.8, 20.6, 7.7, 41, 13],
+                [7, 7.6, 50, 9.6, 40, 80],
+                [8, 12.3, 70.2, 10.6, 32, 50],
+                [9, 16.9, 50, 14.8, 40, 70],
+                [10, 12.8, 20, 11.6, 40, 100],
+                [11, 5.3, 20, 4.7, 40, 62],
+                [12, 6.6, 20, 5.2, 40, 52],
+                [13, 4.8, 70, 3.6, 21, 22],
+                [14, 4.2, 70, 120, 44, 22],
+                [15, 12.8, 70, 11.6, 40, 22],
+                [16, 5.3, 70, 4.7, 40, 22],
+                [17, 6.6, 50, 5.2, 47, 22],
+                [18, 4.8, 35, 3.6, 40, 22],
+                [19, 4.2, 20, 120, 40, 22],
+                [20, 4.2, 80, 0, 40, 22],
+                [21, 37.8, 50.8, 41.8, 40, 22],
+                [22, 30.9, 69.5, 32.4, 40, 25],
+                [23, 25.4, 57, 25.7, 40, 28],
+                [24, 11.7, 18.8, 10.5, 40, 22],
+                [25, 11.9, 17.6, 10.4, 40, 22],
+                [26, 8.8, 13.6, 7.7, 41, 13],
+                [27, 7.6, 12.3, 9.6, 40, 80],
+                [28, 12.3, 29.2, 10.6, 32, 50],
+                [29, 16.9, 42.9, 14.8, 40, 70],
+                [30, 76.9, 22.9, 14.8, 20, 70],
+            ]);
+
+            var options = {
+                chart: {},
+                width: 700,
+                height: 300,
+                backgroundColor: 'transparent',
+                chartArea: {
+                    backgroundColor: 'transparent',
+
+                },
+                axes: {
+                    x: {
+                        0: {
+                            side: 'top'
+                        }
+
+                    },
+                    textStyle: {
+                        color: 'blue'
+                    }
+                }
+
+
+
+
+
+
+            };
+
+            var chart = new google.charts.Line(document.getElementById('line_top_x'));
+
+            chart.draw(data, google.charts.Line.convertOptions(options));
+        }
+    </script>
+</body>
+
+</html>
