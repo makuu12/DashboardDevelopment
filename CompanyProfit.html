@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profit</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CPStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css"
+        integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css"
+        integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+        <!--Start of the page -->
+        <nav>
+            <!--Header part -->
+            <div class="brand">
+                <span>DOWNTOWN ALLEY</span>
+            </div>
+
+        </nav>
+        <div id="sidebar">
+            <!-- Left side of the page -->
+            <div class="profile">
+                <div class="profile-photo">
+                    <!--Insert code of Image depends on their role -->
+                </div>
+                <div class="profile-username">
+                    <center>
+                        <h4>Manager</h4>
+                    </center>
+                    <!--Can be change according to its username -->
+                </div>
+            </div>
+            <div id="navlist">
+                <div class="item item-nav"><a href=""><span> Sales Dashboard</span><i
+                            class="fa-solid fa-chevron-right dropdown"></i></a>
+                    <div class="subitem">
+                        <a href="https://www.facebook.com" target="_blank"><span>Related 1</span></a>
+                        <a href="#"><span>Related 2</span></a>
+                        <a href="#"><span>Related 3</span></a>
+                    </div>
+                </div>
+                <div class="item"><a href=""><span>Profit</span><i class="fa-solid fa-chevron-right"></i></a></div>
+                <div class="item"><a href=""><span>Losses</span><i class="fa-solid fa-chevron-right"></i></a></div>
+                <div class="item"><a href=""><span>Audit Trail</span><i class="fa-solid fa-chevron-right"></i></a></div>
+                <div class="item"><a href=""><span>Accounts</span><i class="fa-solid fa-chevron-right"></i></a></div>
+                <div class="item"><a href=""><span>Inventory</span><i class="fa-solid fa-chevron-right"></i></a></div>
+
+            </div>
+
+        </div>
+        <main class="main-content">
+            <!--Renderbody of the page -->
+            <div class="page">
+                <!--Start Page-->
+                <h3 class="title"><b>Sales Revenue</b></h3>
+                <div id="container-1">
+                    <!--Start of Container 1-->
+                    <div class="col-card">
+                        <center>
+                            <h6>Total Capital</h6>
+                            <h3>4.16M</h3>
+                        </center>
+                    </div>
+                    <div class="col-card">
+                        <center>
+                            <h6>Total Revenue</h6>
+                            <h3>4.16M</h3>
+                        </center>
+                    </div>
+                    <div class="col-card">
+                        <center>
+                            <h6>Total Profit</h6>
+                            <h3>4.16M</h3>
+                        </center>
+                    </div>
+                    <div class="col-card">
+                        <center>
+                            <h6>Loss and Expenses</h6>
+                            <h3>4.16M</h3>
+                        </center>
+                    </div>
+                    <div class="col-card">
+                        <center>
+                            <h6>NET Profit</h6>
+                            <h3>4.16M</h3>
+                        </center>
+                    </div>
+                </div>
+                <!--End of Container 1-->
+                <div class="second-container">
+                    <div id="form-container">
+                        <!--Start of Container 3-->
+                        <div id="container-2">
+                            <!--Start of Container 2-->
+                            <div class="form-1">
+                                <!--Start of form 1-->
+                                <form action="form-action">
+                                    <select name="year" id="year" class="form-actions">
+                                        <option value="2023">2023</option>
+                                        <option value="2022">2021</option>
+                                        <option value="2020">2020</option>
+                                    </select>
+                                </form>
+                                <form action="form-action">
+                                    <select name="month" id="month" class="form-actions">
+                                        <option value="November">November</option>
+                                        <option value="October">October</option>
+                                        <option value="September">September</option>
+                                        <option value="August">August</option>
+                                        <option value="July">July</option>
+                                        <option value="June">June</option>
+                                        <option value="May">May</option>
+                                        <option value="April">April</option>
+                                        <option value="March">March</option>
+                                        <option value="February">February</option>
+                                        <option value="January">January</option>
+                                    </select>
+                                </form>
+                                <div><button type="button" id="reset-data" class="button-form">Reset</button></div>
+                                <div><button type="button" id="print-data" class="button-form">Print Data</button></div>
+                            </div>
+                            <!--End of form 1-->
+                        </div>
+                    </div>
+                    <!--End of Container 2-->
+                </div>
+                <div id="semi-container">
+                    <div id="table-area">
+                        <h4>
+                            <div class="table-header">
+                                Total Profit of January 2023
+                            </div>
+                    </div>
+                </div>
+                <div id="container-4">
+                    <div class="row1">
+                        <!--Start of row 1-->
+                        <div id="table-1">
+                            <table>
+                                <thead class="main-table-header">
+                                    <tr>
+                                        <th>Expenses List</th>
+                                        <th>Cost</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="table-list">
+                                    <tr>
+                                        <td>Product1</td>
+                                        <td>Data 3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product2</td>
+                                        <td>Data 6</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product3</td>
+                                        <td>Data 9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product4</td>
+                                        <td>Data 12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product5</td>
+                                        <td>Data 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product5</td>
+                                        <td>Data 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product5</td>
+                                        <td>Data 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product5</td>
+                                        <td>Data 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product5</td>
+                                        <td>Data 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product5</td>
+                                        <td>Data 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product5</td>
+                                        <td>Data 15</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!--Start of row 1-->
+                    <div class="row2">
+                        <!--Start of row 2-->
+                        <div id="table-2">
+                            <table>
+                                <thead class="main-table-header">
+                                    <tr>
+                                        <th>Loss List</th>
+                                        <th>Cost</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="table-list">
+                                    <tr>
+                                        <td>Product1</td>
+                                        <td>Data 3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product2</td>
+                                        <td>Data 6</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product3</td>
+                                        <td>Data 9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product4</td>
+                                        <td>Data 12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product5</td>
+                                        <td>Data 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product5</td>
+                                        <td>Data 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product5</td>
+                                        <td>Data 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product5</td>
+                                        <td>Data 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product5</td>
+                                        <td>Data 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product5</td>
+                                        <td>Data 15</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!--End of row 2-->
+                </div>
+            </div>
+            <!--End Page-->
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
