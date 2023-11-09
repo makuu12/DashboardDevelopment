@@ -4,6 +4,15 @@
     font-family: "Poppins", sans-serif;
 }
 
+@font-face {
+    font-family: azonix;
+    src: url(fonts/Azonix-1VB0.otf);
+}
+
+span {
+    font-family: azonix;
+
+}
 
 #container-1 {
     background-color: transparent;
@@ -158,3 +167,18 @@
     background-color: white;
 }
 
+
+/*
+
+PRODUCT REVENUE PAGE LAYOUT
+
+*/
+
+#chart-part {
+    position: relative;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: white;
+}

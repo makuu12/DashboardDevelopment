@@ -4,8 +4,8 @@
     
 }
 
-@font-face {
-    font-family: azonix;
+@font-face { /* you have to install this font first (within main folder)*/
+    font-family: azonix; 
     src: url(fonts/Azonix-1VB0.otf);
 }
 
