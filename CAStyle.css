@@ -149,34 +149,31 @@ span {
     width: 80vw;
 }
 
-td {
-    border: 1px solid rgba(87, 27, 39, 1);
-    padding: 8px;
-    text-align: center;
-    
-
-}
-
-th {
-    border: 1px solid rgba(87, 27, 39, 1);
-    color: rgba(236, 242, 249, 1);
-    background-color: rgba(87, 27, 39, 1);
-    top: 0;
-    padding: 8px;
-    text-align: center;
-    position: sticky;
-}
-
 #main-table {
     box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 1);
-    border-collapse: collapse;
-    width: 775px; 
+    width: 775px;
     height: 50vh;
     position: flex;
     justify-content: center;
     align-items: center;
     margin-top: 0px;
     overflow-y: scroll;
+}
+
+#main-table th {
+    color: rgba(236, 242, 249, 1);
+    background-color: rgba(87, 27, 39, 1);
+    text-align: center;
+    top: 0;
+    padding: 8px;
+    position: sticky;
+}
+
+#main-table td {
+    border-bottom: 1px solid rgba(87, 27, 39, 0.5);
+    z-index: -99;
+    padding: 8px;
+    text-align: center;
 }
 
 #table-1 {
@@ -187,12 +184,12 @@ th {
 }
 
 ::-webkit-scrollbar {
-    width: 5px; 
+    width: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(87, 27, 39, 1); 
-    border-radius: 0px; 
+    background: rgba(87, 27, 39, 1);
+    border-radius: 0px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -203,12 +200,12 @@ th {
     position: absolute;
     display: flex;
     align-items: flex-start;
-    justify-content:center;
+    justify-content: center;
     width: 80vw;
     height: 15vh;
     margin-top: 57vh;
     overflow-x: auto;
-    max-width: 100%; 
+    max-width: 100%;
 }
 
 #table-2 {
@@ -218,10 +215,8 @@ th {
 }
 
 #main-table-2 {
-    box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 1),
-                -5px 0px 5px -5px rgba(0, 0, 0, 0.5);
-    border-collapse: collapse;
-    width: 775px; 
+    box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 1), -5px 0px 5px -5px rgba(0, 0, 0, 0.5);
+    width: 775px;
     position: flex;
     justify-content: center;
     align-items: center;
@@ -230,19 +225,18 @@ th {
     overflow-x: scroll;
 }
 
-#main-table-2 th {
-    border: 1px solid rgba(87, 27, 39, 1);
-    color: rgba(236, 242, 249, 1);
-    background-color: rgba(87, 27, 39, 1);
-    top: 0;
-    padding: 0px;
-    text-align: center;
-    position: sticky;
-}
+    #main-table-2 th {
+        color: rgba(236, 242, 249, 1);
+        background-color: rgba(87, 27, 39, 1);
+        top: 0;
+        padding: 0px;
+        text-align: center;
+        position: sticky;
+    }
 
-#main-table-2 td {
-    border: 1px solid rgba(87, 27, 39, 1);
-    padding: 2px;
-    text-align: center;
-    width: 300px;
-}
+    #main-table-2 td {
+        border-bottom: 1px solid rgba(87, 27, 39, 1);
+        padding: 2px;
+        text-align: center;
+        width: 300px;
+    }
